@@ -26,6 +26,10 @@
                                 d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
                         </svg>
                         Reports
+                        <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
                     </a>
                     <a href="#"
                         class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
@@ -84,6 +88,10 @@
                                 d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                         </svg>
                         Students
+                        <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
                     </a>
                     <a href="/users"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
@@ -92,7 +100,12 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                         </svg>
-                        Users</a>
+                        Users
+                        <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
                     <a href="/classes"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
                         <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
