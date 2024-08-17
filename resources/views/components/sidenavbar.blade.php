@@ -7,7 +7,7 @@
             </div>
             <div class="mt-5 flex-grow flex flex-col">
                 <nav class="flex-1 px-2 space-y-1 bg-indigo-700" id="menu">
-                    <a href="#"
+                    <a href="/dashboard"
                         class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
                         onclick="showContent('dashboard')">
                         <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"

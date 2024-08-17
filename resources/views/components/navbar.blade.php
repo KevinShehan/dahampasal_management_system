@@ -25,7 +25,7 @@
             <div>
               <button class="flex items-center max-w-xs text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span class="sr-only">Open user menu</span>
-                <img class="w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1542059991008-f44b6b89e1b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=296&q=80" alt="">
+                <img class="w-8 h-8 rounded-full" src="{{ asset('images/profile/images.png') }}" alt="profile_pic">
               </button>
             </div>
 
