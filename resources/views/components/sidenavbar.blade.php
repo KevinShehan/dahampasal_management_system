@@ -38,7 +38,7 @@
             </a>
           </nav>
 
-          <nav class="mt-10">
+          <nav class="">
             <a href="/dashboard" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Dashboard</a>
             <a href="/academics" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Academics</a>
             <a href="/administrative" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Administrative</a>
