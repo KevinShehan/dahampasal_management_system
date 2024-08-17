@@ -13,3 +13,8 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+
+Route::get('/academics', function () {
+    return view('login');
+});
