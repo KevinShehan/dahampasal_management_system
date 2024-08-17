@@ -1,63 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
-</head>
+@extends("_layouts.app_view")
+
 <body class="h-full bg-gray-100">
   <div class="flex h-screen overflow-hidden bg-gray-100">
     <!-- Sidebar -->
-    <div class="hidden md:flex md:flex-shrink-0">
-      <div class="flex flex-col w-64">
-        <div class="flex flex-col flex-grow pt-5 pb-4 overflow-y-auto bg-indigo-700">
-          <div class="flex items-center flex-shrink-0 px-4">
-            <img class="w-auto h-8" src="https://tailwindui.com/img/logos/workflow-logo-indigo-300-mark-white-text.svg" alt="Workflow">
-          </div>
-          <div class="mt-5 flex-grow flex flex-col">
-            <nav class="flex-1 px-2 space-y-1 bg-indigo-700" id="menu">
-              <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="showContent('dashboard')">
-                <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v4M3 3h4m0 0v4m0 0H3m18 0v4m-4-4h4m0 0v4m0 0h-4m-6 0a9 9 0 100 18 9 9 0 000-18z" />
-                </svg>
-                Dashboard
-              </a>
-              <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="showContent('reports')">
-                <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
-                </svg>
-                Reports
-              </a>
-              <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="showContent('tasks')">
-                <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m-6 4h12m-6 2v2m6 4H3" />
-                </svg>
-                Tasks
-              </a>
-              <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="showContent('calendar')">
-                <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 4H7a2 2 0 01-2-2V7a2 2 0 012-2h10a2 2 0 012 2v7a2 2 0 01-2 2z" />
-                </svg>
-                Calendar
-              </a>
-              <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="showContent('documents')">
-                <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-                </svg>
-                Documents
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <!-- Main content -->
     <div class="flex flex-col flex-1 w-0 overflow-hidden">

@@ -1,12 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
+@extends("_layouts.app_view")
 <body class="h-full bg-gray-100">
     <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-md w-full space-y-8">
