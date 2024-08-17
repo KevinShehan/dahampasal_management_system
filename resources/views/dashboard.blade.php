@@ -1,5 +1,8 @@
 @extends("_layouts.app_view")
 
+@extends("components.navbar")
+@extends("components.sidenavbar")
+
 <body class="h-full bg-gray-100">
   <div class="flex h-screen overflow-hidden bg-gray-100">
     <!-- Sidebar -->

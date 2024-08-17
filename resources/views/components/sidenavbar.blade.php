@@ -37,6 +37,20 @@
               Documents
             </a>
           </nav>
+
+          <nav class="mt-10">
+            <a href="/dashboard" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Dashboard</a>
+            <a href="/academics" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Academics</a>
+            <a href="/administrative" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Administrative</a>
+            <a href="/students" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Students</a>
+            <a href="/users" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Users</a>
+            <a href="/classes" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Classes</a>
+            <a href="/dormitories" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Dormitories</a>
+            <a href="/sections" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Sections</a>
+            <a href="/subjects" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Subjects</a>
+            <a href="/exams" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Exams</a>
+            <a href="/settings" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Settings</a>
+        </nav>
         </div>
       </div>
     </div>
