@@ -1,3 +1,10 @@
+<script>
+  function toggleSubMenu() {
+      const subMenu = document.getElementById('subMenu');
+      subMenu.classList.toggle('hidden');
+  }
+</script>
+
 <div class="hidden md:flex md:flex-shrink-0">
     <div class="flex flex-col w-64">
         <div class="flex flex-col flex-grow pt-5 pb-4 overflow-y-auto bg-indigo-700">
@@ -17,20 +24,28 @@
                         </svg>
                         Dashboard
                     </a>
-                    <a href="#"
-                        class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
-                        onclick="showContent('reports')">
-                        <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
-                        </svg>
-                        Reports
-                        <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
+                    <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="toggleSubMenu()">
+                      <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
+                      </svg>
+                      Reports
+                      <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                  </a>
+                    <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
+                        <a href="#"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Student Report
+                        </a>
+                        <a href="#"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Teacher Report
+                        </a>
+                    </div>
+
+
+
                     <a href="#"
                         class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
                         onclick="showContent('tasks')">
