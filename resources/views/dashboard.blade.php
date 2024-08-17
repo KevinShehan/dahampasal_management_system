@@ -1,18 +1,19 @@
 @extends("_layouts.app_view")
 
-@extends("components.navbar")
-@extends("components.sidenavbar")
+
+
 
 <body class="h-full bg-gray-100">
   <div class="flex h-screen overflow-hidden bg-gray-100">
     <!-- Sidebar -->
-
+    @include("components.sidenavbar")
 
     <!-- Main content -->
+    @include("components.navbar")
 
   </div>
 
-  <script>
+  {{-- <script>
     function showContent(content) {
       const contentDiv = document.getElementById('content');
       let html = '';
@@ -67,6 +68,6 @@
       }
       contentDiv.innerHTML = html;
     }
-  </script>
+  </script> --}}
 </body>
 </html>
