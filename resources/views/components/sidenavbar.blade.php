@@ -36,20 +36,64 @@
               </svg>
               Documents
             </a>
-          </nav>
 
-          <nav class="">
-            <a href="/dashboard" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Dashboard</a>
-            <a href="/academics" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Academics</a>
-            <a href="/administrative" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Administrative</a>
-            <a href="/students" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Students</a>
-            <a href="/users" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Users</a>
-            <a href="/classes" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Classes</a>
-            <a href="/dormitories" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Dormitories</a>
-            <a href="/sections" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Sections</a>
-            <a href="/subjects" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Subjects</a>
-            <a href="/exams" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Exams</a>
-            <a href="/settings" class="text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-green-700">Settings</a>
+            <a href="/academics" class="flex items-center text-white block py-2.5 px-4 rounded transition rounded-md duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Academics
+            </a>
+            <a href="/administrative" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Administrative
+            </a>
+            <a href="/students" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Students
+            </a>
+            <a href="/users" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Users</a>
+            <a href="/classes" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Classes
+            </a>
+            <a href="/dormitories" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>Dormitories
+            </a>
+            <a href="/sections" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Sections
+            </a>
+            <a href="/subjects" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Subjects
+            </a>
+            <a href="/exams" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Exams
+            </a>
+            <a href="/settings" class="flex items-center text-white block py-2.5 px-4 rounded transition duration-200 hover:bg-indigo-600">
+              <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>Settings
+            </a>
         </nav>
         </div>
       </div>
