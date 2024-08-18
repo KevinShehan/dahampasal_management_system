@@ -11,9 +11,9 @@
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" defer></script>
 <script>
-    function toggleSubMenu() {
-        const subMenu = document.getElementById('subMenu');
-        const chevronIcon = document.getElementById('chevronIcon');
+    function toggleSubMenu(event) {
+        const subMenu = event.currentTarget.nextElementSibling;
+        const chevronIcon = event.currentTarget.querySelector('.chevron-icon');
         subMenu.classList.toggle('hidden');
         chevronIcon.classList.toggle('icon-chevron-right');
         chevronIcon.classList.toggle('icon-chevron-down');
@@ -118,30 +118,41 @@
                         </svg>
                         Administrative
                     </a>
-                    <a href="/students"
-                        class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
-                        <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-                        </svg>
-                        Students
-                        <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
+                    {{-- Student Menu --}}
+                    <div>
+                        <a href="#"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
+                            onclick="toggleSubMenu(event)">
+                            <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                            </svg>
+                            Students
+                            <svg class="w-4 h-4 ml-auto chevron-icon icon-chevron-right"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
 
-                    <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                        <a href="/addstudent"
-                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                            Add Student
-                        </a>
-                        <a href="/viewstudents"
-                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                            View Students
-                        </a>
+                        <div class="hidden ml-8 mt-2 space-y-2">
+                            <a href="/addstudent"
+                                class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                                Add Student
+                            </a>
+                            <a href="/viewstudents"
+                                class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                                View Students
+                            </a>
+                        </div>
                     </div>
+
+
+
+
+
 
                     <a href="/users"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
