@@ -156,17 +156,19 @@
 
                     <a href="/users"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
-                        <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-                        </svg>
+                        <i class="fas fa-user w-6 h-6 mr-3 text-indigo-300"></i>
                         Users
                         <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </a>
+
+
+
+
+
+
                     <a href="/classes"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
                         <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
