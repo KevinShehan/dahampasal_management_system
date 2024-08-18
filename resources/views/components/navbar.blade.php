@@ -53,7 +53,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
 
        
-                <div class="flex space-x-4 mt-8">
+                <div class="flex space-x-9 mt-8">
                     <!-- Card 1 -->
                     <div class="flex max-w-sm bg-blue-100 rounded-lg shadow-md p-4 items-center">
                         <div class="flex-grow">
