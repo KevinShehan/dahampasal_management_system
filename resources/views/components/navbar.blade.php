@@ -26,7 +26,7 @@
 
                 <!-- Profile dropdown -->
                 <div class="relative ml-3">
-                    <div>
+                    {{-- <div>
                         <button
                             class="flex items-center max-w-xs text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             id="user-menu-button" aria-expanded="false" aria-haspopup="true">
@@ -35,7 +35,57 @@
                                 alt="profile_pic">
                             &nbsp; >
                         </button>
+                    </div> --}}
+
+
+
+                    <script>
+                        function toggleDropdown() {
+                            const userMenu = document.getElementById('user-menu');
+                            const chevronIcon = document.getElementById('chevron-icon');
+                            userMenu.classList.toggle('hidden');
+                            chevronIcon.classList.toggle('fa-chevron-down');
+                            chevronIcon.classList.toggle('fa-chevron-up');
+                        }
+
+                        // Close the dropdown if clicked outside
+                        window.onclick = function(event) {
+                            if (!event.target.matches('#user-menu-button') && !event.target.matches('#chevron-icon')) {
+                                const userMenu = document.getElementById('user-menu');
+                                const chevronIcon = document.getElementById('chevron-icon');
+                                if (!userMenu.classList.contains('hidden')) {
+                                    userMenu.classList.add('hidden');
+                                    chevronIcon.classList.remove('fa-chevron-up');
+                                    chevronIcon.classList.add('fa-chevron-down');
+                                }
+                            }
+                        }
+                    </script>
+
+                    <div>
+                        <button
+                            class="flex items-center max-w-xs text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                            id="user-menu-button" aria-expanded="false" aria-haspopup="true" onclick="toggleDropdown()">
+                            <span class="sr-only">Open user menu</span>
+                            <img class="w-8 h-8 rounded-full" src="{{ asset('images/profile/images.png') }}"
+                                alt="profile_pic">
+                            <i id="chevron-icon" class="fas fa-chevron-down ml-2"></i>
+                        </button>
                     </div>
+                    <div id="user-menu"
+                        class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            <i class="fas fa-user mr-2"></i>Profile</a>
+                        <a href="/settings" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            <i class="fas fa-cog mr-2"></i>Settings</a>
+                        <a href="/logout" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            <i class="fas fa-sign-out-alt mr-2"></i>Logout</a>
+                    </div>
+
+
+
+
+
 
                     <!--
               Dropdown menu, show/hide based on menu state.
@@ -82,10 +132,10 @@
                             <p class="text-gray-700">8</p>
                         </div>
                         <div>
-                          <div>
-                            <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/teacher.gif') }}" alt="profile_pic">
-                        </div>
+                            <div>
+                                <img class="w-12 h-12 text-blue-600 rounded-full"
+                                    src="{{ asset('images/card/teacher.gif') }}" alt="profile_pic">
+                            </div>
                         </div>
                     </div>
                     <!-- Card 3 -->
@@ -96,10 +146,10 @@
                             <p class="text-gray-700">5</p>
                         </div>
                         <div>
-                          <div>
-                            <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/classroom.gif') }}" alt="profile_pic">
-                        </div>
+                            <div>
+                                <img class="w-12 h-12 text-blue-600 rounded-full"
+                                    src="{{ asset('images/card/classroom.gif') }}" alt="profile_pic">
+                            </div>
                         </div>
                     </div>
                     <!-- Card 4 -->
@@ -110,10 +160,10 @@
                             <p class="text-gray-700">7</p>
                         </div>
                         <div>
-                          <div>
-                            <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/family.gif') }}" alt="profile_pic">
-                        </div>
+                            <div>
+                                <img class="w-12 h-12 text-blue-600 rounded-full"
+                                    src="{{ asset('images/card/family.gif') }}" alt="profile_pic">
+                            </div>
                         </div>
                     </div>
                 </div>
