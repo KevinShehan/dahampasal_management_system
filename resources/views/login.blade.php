@@ -6,9 +6,10 @@
 
             <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-sm bg-white p-8 rounded-lg shadow-lg">
                 <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-                    <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                        alt="Your Company">
-                    <h1 class="mt-8 text-center text-4xl font-bold leading-9 tracking-tight text-gray-900">Login</h1>
+                    {{-- <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                        alt="Your Company"> --}}
+                   <img class="mx-auto w-auto h-20 rounded-full" src="{{ asset('images/profile/images.png') }}">
+                    <h1 class="mt-4 text-center text-4xl font-bold leading-9 tracking-tight text-gray-900">Login</h1>
                 </div>
                 <form class="space-y-6" action="#" method="POST">
                     <div>

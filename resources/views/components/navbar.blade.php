@@ -78,7 +78,7 @@
                             <i class="fas fa-user mr-2"></i>Profile</a>
                         <a href="/settings" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                             <i class="fas fa-cog mr-2"></i>Settings</a>
-                        <a href="/logout" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                        <a href="{{ route('logout') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                             <i class="fas fa-sign-out-alt mr-2"></i>Logout</a>
                     </div>
 
