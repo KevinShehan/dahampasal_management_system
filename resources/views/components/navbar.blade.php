@@ -82,15 +82,10 @@
                             <p class="text-gray-700">8</p>
                         </div>
                         <div>
-                            <svg class="w-12 h-12 text-red-600" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l9-5-9-5-9 5 9 5z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l6.16-3.422A12.083 12.083 0 0118 20.75M6 8.334a12.083 12.083 0 01.84-3.755L12 14z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M6 20.75c0-.653.097-1.284.278-1.878L12 14v6.75M6 20.75A12.083 12.083 0 0112 14" />
-                            </svg>
+                          <div>
+                            <img class="w-12 h-12 text-blue-600 rounded-full"
+                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                        </div>
                         </div>
                     </div>
                     <!-- Card 3 -->
@@ -101,15 +96,10 @@
                             <p class="text-gray-700">5</p>
                         </div>
                         <div>
-                            <svg class="w-12 h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l9-5-9-5-9 5 9 5z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l6.16-3.422A12.083 12.083 0 0118 20.75M6 8.334a12.083 12.083 0 01.84-3.755L12 14z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M6 20.75c0-.653.097-1.284.278-1.878L12 14v6.75M6 20.75A12.083 12.083 0 0112 14" />
-                            </svg>
+                          <div>
+                            <img class="w-12 h-12 text-blue-600 rounded-full"
+                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                        </div>
                         </div>
                     </div>
                     <!-- Card 4 -->
@@ -120,15 +110,10 @@
                             <p class="text-gray-700">7</p>
                         </div>
                         <div>
-                            <svg class="w-12 h-12 text-blue-800" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l9-5-9-5-9 5 9 5z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l6.16-3.422A12.083 12.083 0 0118 20.75M6 8.334a12.083 12.083 0 01.84-3.755L12 14z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M6 20.75c0-.653.097-1.284.278-1.878L12 14v6.75M6 20.75A12.083 12.083 0 0112 14" />
-                            </svg>
+                          <div>
+                            <img class="w-12 h-12 text-blue-600 rounded-full"
+                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                        </div>
                         </div>
                     </div>
                 </div>
