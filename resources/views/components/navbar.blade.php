@@ -7,10 +7,10 @@
       </button>
       <div class="flex justify-between flex-1 px-4">
         <div class="flex flex-1">
-          <div class="flex w-full md:ml-0">
+          {{-- <div class="flex w-full md:ml-0">
             <label for="search-field" class="sr-only">Search</label>
             <input id="search-field" class="block w-full pl-10 pr-3 py-2 border border-transparent text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-0 focus:border-transparent sm:text-sm" placeholder="Search" type="search" name="search">
-          </div>
+          </div> --}}
         </div>
         <div class="flex items-center ml-4 md:ml-6">
           <button class="p-1 text-gray-400 bg-white rounded-full hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
@@ -26,6 +26,7 @@
               <button class="flex items-center max-w-xs text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span class="sr-only">Open user menu</span>
                 <img class="w-8 h-8 rounded-full" src="{{ asset('images/profile/images.png') }}" alt="profile_pic">
+               &nbsp; Kevin >
               </button>
             </div>
 
@@ -55,7 +56,7 @@
        
                 <div class="flex space-x-9 mt-8">
                     <!-- Card 1 -->
-                    <div class="flex max-w-sm bg-blue-100 rounded-lg shadow-md p-4 items-center">
+                    <div class="flex max-w-sm bg-blue-100 rounded-lg shadow-md p-4 items-center hover:-translate-y-1 hover:shadow-lg hover:border-blue-400"">
                         <div class="flex-grow">
                             <h3 class="text-lg font-semibold mb-2">Total Students</h3>
                             <p class="text-gray-700 font-semibold">12</p>
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="flex max-w-sm bg-red-100 rounded-lg shadow-md p-4 items-center">
+                    <div class="flex max-w-sm bg-red-100 rounded-lg shadow-md p-4 items-center hover:-translate-y-1 hover:shadow-lg hover:border-blue-400">
                         <div class="flex-grow">
                             <h3 class="text-lg font-semibold mb-2">Total Teachers</h3>
                             <p class="text-gray-700">8</p>
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="flex max-w-sm bg-green-100 rounded-lg shadow-md p-4 items-center">
+                    <div class="flex max-w-sm bg-green-100 rounded-lg shadow-md p-4 items-center hover:-translate-y-1 hover:shadow-lg hover:border-blue-400">
                         <div class="flex-grow">
                             <h3 class="text-lg font-semibold mb-2">Total Administrators</h3>
                             <p class="text-gray-700">5</p>
@@ -97,7 +98,7 @@
                         </div>
                     </div>
                     <!-- Card 4 -->
-                    <div class="flex max-w-sm bg-blue-200 rounded-lg shadow-md p-4 items-center">
+                    <div class="flex max-w-sm bg-blue-200 rounded-lg shadow-md p-4 items-center hover:-translate-y-1 hover:shadow-lg hover:border-blue-400">
                         <div class="flex-grow">
                             <h3 class="text-lg font-semibold mb-2">Non Academic Staff</h3>
                             <p class="text-gray-700">7</p>
