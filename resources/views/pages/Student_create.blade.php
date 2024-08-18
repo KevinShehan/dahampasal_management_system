@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration Form</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <!-- Include SweetAlert2 CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-</head>
+@extends("_layouts.app_view")
+@section('content')
+@include('components.navbar')
+{{-- @include('components.sidenavbar') --}}
 <body class="bg-gray-100 flex items-center justify-center h-screen">
+
     <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 class="text-2xl font-bold mb-6 text-center">Student Registration</h2>
         <form action="{{ route('students.store') }}" method="POST">
@@ -59,5 +54,4 @@
             });
         @endif
     </script>
-</body>
-</html>
+@endsection
