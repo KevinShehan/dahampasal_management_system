@@ -138,7 +138,7 @@
                         </a>
 
                         <div class="hidden ml-8 mt-2 space-y-2">
-                            <a href="/addstudent"
+                            <a href="/addstudents"
                                 class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                                 Add Student
                             </a>
@@ -169,7 +169,7 @@
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             Add User
                         </a>
-                        <a href="/addstudent"
+                        <a href="/addstudents"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             View Users
                         </a>

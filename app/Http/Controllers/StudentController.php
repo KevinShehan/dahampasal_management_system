@@ -15,7 +15,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-        return view('addstudent');
+        return view('pages.Student_create');
     }
 
     /**
