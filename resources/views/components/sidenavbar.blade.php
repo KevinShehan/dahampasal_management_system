@@ -43,7 +43,7 @@
 
                     <a href="#"
                         class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
-                        onclick="toggleSubMenu()">
+                        onclick="toggleSubMenu(event)">
                         <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,7 +56,7 @@
                         </svg>
                     </a>
 
-                    <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
+                    <div class="hidden ml-8 mt-2 space-y-2">
                         <a href="/viewstudents"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             Student Report
@@ -154,8 +154,8 @@
 
 
 
-                    <a href="/users"
-                        class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
+                    <a href="£"
+                        class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600"   onclick="toggleSubMenu(event)">
                         <i class="fas fa-user w-6 h-6 mr-3 text-indigo-300"></i>
                         Users
                         <svg class="w-4 h-4 ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -164,7 +164,16 @@
                         </svg>
                     </a>
 
-
+                    <div class="hidden ml-8 mt-2 space-y-2">
+                        <a href="/viewstudents"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Add User
+                        </a>
+                        <a href="/addstudent"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            View Users
+                        </a>
+                    </div>
 
 
 
