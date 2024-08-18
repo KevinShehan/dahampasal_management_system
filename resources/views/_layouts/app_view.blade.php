@@ -13,14 +13,17 @@
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     @livewireStyles
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-      body {
-        font-family: 'Inter', sans-serif;
-      }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
     </style>
 </head>
+
 <body>
     @yield('content')
     @livewireScripts
 </body>
+
 </html>
