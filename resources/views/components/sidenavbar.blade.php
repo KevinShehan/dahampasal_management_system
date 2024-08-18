@@ -128,10 +128,10 @@
                     </a>
 
                     <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                      <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                      <a href="/addstudents" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                           Add Student
                       </a>
-                      <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                      <a href="/viewstudent" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                           View Students
                       </a>
                   </div>
