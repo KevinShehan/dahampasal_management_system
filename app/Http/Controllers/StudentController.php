@@ -38,6 +38,9 @@ class StudentController extends Controller
  
          Student::create($validatedData);
  
-         return redirect()->route('students.create')->with('success', 'Student registered successfully!');
+         return redirect()->route('students.create')->with([
+            'success' => 'Student registered successfully!',
+            'redirect_to' => route('students.index') // Assuming `students.index` is the route to view students
+        ]);
      }
 }

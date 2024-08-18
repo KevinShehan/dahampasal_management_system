@@ -20,4 +20,4 @@ Route::get('/logout', function () {  session()->flush(); // Destroy the session
 })->name('logout');
 
 Route::get('/addstudent', [StudentController::class, 'create'])->name('students.create');
-Route::post('/addstudent', [StudentController::class, 'store']);
+Route::post('/addstudent', [StudentController::class, 'store'])->name('students.store');;
