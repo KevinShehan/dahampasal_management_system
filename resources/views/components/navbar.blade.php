@@ -84,7 +84,7 @@
                         <div>
                           <div>
                             <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                                src="{{ asset('images/card/teacher.gif') }}" alt="profile_pic">
                         </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                         <div>
                           <div>
                             <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                                src="{{ asset('images/card/classroom.gif') }}" alt="profile_pic">
                         </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <div>
                           <div>
                             <img class="w-12 h-12 text-blue-600 rounded-full"
-                                src="{{ asset('images/card/student.gif') }}" alt="profile_pic">
+                                src="{{ asset('images/card/family.gif') }}" alt="profile_pic">
                         </div>
                         </div>
                     </div>
