@@ -57,11 +57,11 @@
                     </a>
 
                     <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                        <a href="#"
+                        <a href="/viewstudents"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             Student Report
                         </a>
-                        <a href="#"
+                        <a href="/addstudent"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             Teacher Report
                         </a>
@@ -133,11 +133,11 @@
                     </a>
 
                     <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                        <a href="/addstudents"
+                        <a href="/addstudent"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             Add Student
                         </a>
-                        <a href="/viewstudent"
+                        <a href="/viewstudents"
                             class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
                             View Students
                         </a>
