@@ -9,6 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.9.1/dist/cdn.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    @livewireStyles
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
       body {
@@ -17,6 +19,7 @@
     </style>
 </head>
 <body>
-
+    @yield('content')
+    @livewireScripts
 </body>
 </html>
