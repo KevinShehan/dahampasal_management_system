@@ -1,5 +1,3 @@
-
-
 <style>
     .icon-chevron-right::before {
         content: '\f054';
@@ -43,24 +41,31 @@
                     </a>
 
 
-                    <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600" onclick="toggleSubMenu()">
-                      <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
-                      </svg>
-                      Reports
-                      <svg id="chevronIcon" class="w-4 h-4 ml-auto icon-chevron-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                      </svg>
-                  </a>
-              
-                  <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                      <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                          Student Report
-                      </a>
-                      <a href="#" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                          Teacher Report
-                      </a>
-                  </div>
+                    <a href="#"
+                        class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600"
+                        onclick="toggleSubMenu()">
+                        <svg class="w-6 h-6 mr-3 text-indigo-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m-7 4h8a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" />
+                        </svg>
+                        Reports
+                        <svg id="chevronIcon" class="w-4 h-4 ml-auto icon-chevron-right"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+
+                    <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
+                        <a href="#"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Student Report
+                        </a>
+                        <a href="#"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Teacher Report
+                        </a>
+                    </div>
 
 
 
@@ -128,13 +133,15 @@
                     </a>
 
                     <div id="subMenu" class="hidden ml-8 mt-2 space-y-2">
-                      <a href="/addstudents" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                          Add Student
-                      </a>
-                      <a href="/viewstudent" class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
-                          View Students
-                      </a>
-                  </div>
+                        <a href="/addstudents"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            Add Student
+                        </a>
+                        <a href="/viewstudent"
+                            class="flex items-center px-2 py-2 text-sm font-medium text-white rounded-md hover:bg-indigo-600">
+                            View Students
+                        </a>
+                    </div>
 
                     <a href="/users"
                         class="flex items-center text-white block py-2 px-2 rounded transition duration-200 hover:bg-indigo-600">
