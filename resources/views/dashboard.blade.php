@@ -1,73 +1,17 @@
-@extends("_layouts.app_view")
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('Dashboard') }}
+        </h2>
+    </x-slot>
 
-
-
-
-<body class="h-full bg-gray-100">
-  <div class="flex h-screen overflow-hidden bg-gray-100">
-    <!-- Sidebar -->
-    @include("components.sidenavbar")
-
-    <!-- Main content -->
-    @include("components.navbar")
-
-  </div>
-
-  {{-- <script>
-    function showContent(content) {
-      const contentDiv = document.getElementById('content');
-      let html = '';
-      switch(content) {
-        case 'dashboard':
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Dashboard Overview</h2>
-              <p class="mt-2 text-gray-600">This is the dashboard overview content.</p>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 text-gray-900 dark:text-gray-100">
+                    {{ __("You're logged in!") }}
+                </div>
             </div>
-          `;
-          break;
-        case 'reports':
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Reports</h2>
-              <p class="mt-2 text-gray-600">This is the reports content.</p>
-            </div>
-          `;
-          break;
-        case 'tasks':
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Tasks</h2>
-              <p class="mt-2 text-gray-600">This is the tasks content.</p>
-            </div>
-          `;
-          break;
-        case 'calendar':
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Calendar</h2>
-              <p class="mt-2 text-gray-600">This is the calendar content.</p>
-            </div>
-          `;
-          break;
-        case 'documents':
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Documents</h2>
-              <p class="mt-2 text-gray-600">This is the documents content.</p>
-            </div>
-          `;
-          break;
-        default:
-          html = `
-            <div class="p-6 bg-white border-b border-gray-200 rounded-lg shadow-sm">
-              <h2 class="text-xl font-medium text-gray-900">Welcome to your dashboard</h2>
-              <p class="mt-2 text-gray-600">Select an item from the menu to see more details here.</p>
-            </div>
-          `;
-      }
-      contentDiv.innerHTML = html;
-    }
-  </script> --}}
-</body>
-</html>
+        </div>
+    </div>
+</x-app-layout>
